@@ -1,0 +1,5 @@
+ford,2001,45,verde
+kia,2022,100,azul
+nisan,2014,20,gris
+ferrari,2018,200,rojo
+tesla,2022,1000,negro
