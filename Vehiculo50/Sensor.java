@@ -1,3 +1,4 @@
+package Vehiculo50;
 import java.util.ArrayList;
 public class Sensor {
     private String tipo;

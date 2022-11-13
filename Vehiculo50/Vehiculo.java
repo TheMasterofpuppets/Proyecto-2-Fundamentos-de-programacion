@@ -1,3 +1,4 @@
+package Vehiculo50;
 import java.util.ArrayList; 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -243,7 +244,7 @@ public class Vehiculo {
     public static void agregarCarroDesdeBase(){
         String info;
         try{
-            BufferedReader lector = new BufferedReader(new FileReader("vehiculos.txt"));
+            BufferedReader lector = new BufferedReader(new FileReader("Vehiculo50\\vehiculos.txt"));
             info = lector.readLine();
             while(info != null){
                 String atributos[] = info.split(",");
@@ -254,7 +255,6 @@ public class Vehiculo {
         }catch (Exception error){
             System.out.println("Base de datos no encontrada");
         }
-
     }
 
 }
